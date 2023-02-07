@@ -1,106 +1,144 @@
-:root {
-    --white: #fff;
-    --dark-blue: #13293d;
-    --tan: #d8a47f;
-    --border-radius: 50px;
-  }
+body{
+  background-color:lightgray;
+}
   
-  body {
-    font-size: 16px;
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    justify-content: flex-start;
-  }
-  
-  h1 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-  }
-  
-  h2 {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
-  }
-  
-  header {
-    padding: 40px;
-    text-align: left;
-    
-    background: var(--dark-blue);
-    color: var(--white);
-  }
-  
-  nav {
-    display: flex-end;
-    background-color: var(--tan);
-  }
-  
-  nav a {
-    color: var(--dark-blue);
-    padding: 14px 20px;
-    text-decoration: none;
-    text-align: right;
-  }
-  
-  nav a:hover {
-    background-color: var(--white);
-    color: var(--dark-blue);
-  }
-  
-  main {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  footer {
-    width: 100%;
-    bottom: 0;
-    padding: 20px;
-    text-align: center;
-    background: var(--dark-blue);
-    color: var(--white);
-    margin-top: auto;
-  }
-  
-  .products {
-    flex: 1;
-    background-color: var(--white);
-    padding: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
-  
-  .card {
-    border-style: solid;
-    border-width: 1px;
-    border-radius: var(--border-radius);
-    padding: 10px;
-    flex: 0 0 300px;
-    transform: rotate(8deg);
-    box-shadow: 10px 10px 5px #aaaaaa;
-    margin: 20px;
-  }
-  
-  .card > header {
-    /* This is the same as `border-radius: 50px 50px 0 0 */
-    border-radius: var(--border-radius) var(--border-radius) 0 0;
-    padding: 20px;
-  }
-  
-  .card > p {
-    text-align: center;
-  }
-  
-  .card > img {
-    width: 100%;
-  }
-  
-  @media screen and (max-width: 768px) {
-    main,
-    nav {
-      flex-direction: row;
-    }
-  }
-  
+
+/* Header/Navigation Bar */
+#header-navigation {
+  background: rgb(62, 62, 62);
+  color: rgb blue;
+}
+
+#header-navigation a {
+  color: aqua;  
+  text-underline-position: under;
+}
+
+
+
+
+h1 {
+  display: inline-block;
+  font-size: 32pt;
+}
+
+#name-text-color {
+  background: rgb(115, 194, 255);
+}
+
+nav {
+  float: right;
+  margin-top: 20px;
+  margin-right: 5%;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-left: 25px;
+  color: aqua;
+}
+
+
+
+/* Hero Image/Subtitle */
+#header-image {
+  width: 100%;
+  height: 150px;
+}
+
+
+
+/* Main Content */
+
+.flex-container {
+display: flex;
+}
+
+main header {
+  font-size: 32pt;
+  font-weight: bold;
+  width: 25%;
+  text-align: right;
+  border-right-color:rgba red;
+  border-right-style: solid;
+  border-width: 3px;
+  padding-right: 10px;
+}
+
+p {
+  width: 65%;
+  padding-left: 25px;
+}
+
+li {
+
+  font-size: 18;
+  position: relative;
+  bottom: 3px;
+  left: -10px;
+}
+
+
+
+a {
+  color: rgb(170, 0, 255);
+}
+
+
+
+#tiles {
+  width: 65%;
+  padding-left: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+#main-work-card {
+  width: 100%;
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;
+}
+
+#work img {
+  width: 100%;
+  height: 100%;
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+#work img:hover {
+  opacity: 1.0;
+}
+
+.tile-name-box {
+  background: orange;
+  color: yellow;
+  width: 150px;
+  position: relative;
+  bottom: 80px;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+#carpenter-tile .tile-name-box {
+  width: 300px;
+}
+
+.card-title {
+  font-size: 16pt;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 11pt;
+  padding: 3px 0;
+}
+
+.work-card {
+  width: 49%;
+  margin-top: 15px;
+  border-color: white;
+  border-style: solid;
+  border-width: 3px;}
