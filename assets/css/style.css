@@ -150,3 +150,16 @@ justify-content:flex-end;
   border-color: white;
   border-style: solid;
   border-width: 3px;}
+
+/* For large devices:laptops/desktops */
+ @media screen and  (max-width: 992px){
+  
+}
+/*For medium devices: tablets*/
+@media screen and (min-width: 768px) {
+}
+  
+/*For smaller devices: phones*/
+@media screen and (min-width: 600px) {
+  
+}
