@@ -1,4 +1,6 @@
 # 02-Homework-Portfolio
+In this assignment I produced starter code in Html and CSS to create a Portfolio site. I added sections that were required in the Acceptance Criteria that would showcase different parts of my experience as a web developer. As I am in the infancy of my career as a web developer there are not many applications to show at this moment. In the future I will add to this Portfolio.
+
 02 Advanced CSS: Portfolio
 Your Task
 Welcome to this week's Challenge! This is an even-numbered week, so you won't be given any starter code. Instead, you'll create a web application from scratch! This week, you'll build a portfolio page, which you can add to as the course progresses.
