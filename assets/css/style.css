@@ -5,13 +5,15 @@ body{
 
 /* Header/Navigation Bar */
 #header-navigation {
-  background: rgb(62, 62, 62);
+  background: green;
   color: rgb blue;
 }
 
 #header-navigation a {
   color: aqua;  
   text-underline-position: under;
+  justify-content: space-around;
+  float: right;
 }
 
 
@@ -21,7 +23,10 @@ h1 {
   display: inline-block;
   font-size: 32pt;
 }
-
+h2 {
+  color: blue;
+  font-size: 2.5em;
+}
 #name-text-color {
   background: rgb(115, 194, 255);
 }
@@ -80,8 +85,11 @@ li {
 
 
 
-a {
+.a {
   color: rgb(170, 0, 255);
+  background-color: green;
+justify-content:flex-end;
+  float: right;
 }
 
 
